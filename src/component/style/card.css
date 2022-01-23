@@ -1,0 +1,99 @@
+#produk{
+    scroll-margin: -60px;
+}
+
+.list-card{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+.title{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: -35px;
+    background-color: white;
+    width: 350px;
+    height: 70px;
+    border-radius: 10px;
+    color: #31344B;
+    box-shadow: 10px 10px 4px  rgba(0, 0, 0, .2) ;
+}
+.card-content{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.crd{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+    color: #31344B;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px  rgba(0, 0, 0, .2) ;
+    text-align: center;
+}
+.crd img{
+    margin-top: 10px;
+    width: 180px;
+}
+.crd h5:first-child{
+    margin-bottom: 0px;
+    margin-top: 30px;
+
+}
+.paketan{
+    transform: translateY(-145px)
+}
+
+.ket{
+    transform: translateY(-90px);
+}
+
+.harga{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-80px);
+}
+
+.in{
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    box-shadow: inset 5px 5px 4px  rgba(0, 0, 0, .2) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in h5{
+    margin-bottom: 3px;
+}
+.in p{
+    margin-bottom:2px ;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+@media  (max-width: 400px) {
+.title{
+    width: 300px;
+}
+.title h4{
+    margin-bottom: 3px;
+}
+
+}

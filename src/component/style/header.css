@@ -1,0 +1,312 @@
+body{
+    /* background-color:#5883C5; */
+    height: 100vh;
+    position: relative; 
+}
+.navbar-brand img{
+    width: 150px;
+}
+.nav-link{
+    cursor: pointer;
+}
+.nav-item a{
+    font-weight: 900;
+    
+}
+*{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 320px;
+    height: 50px;
+    background: red;
+    -webkit-backface-visibility: hidden;
+    /*--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Most Important*/
+  }
+.active-scroll-spy {
+    /* background-color: ; */
+    color: #FFC700 !important;
+  }
+
+.header{
+    display: flex;
+    border-radius: 20px;
+    height: 500px;
+    background-color: white;
+    width: 95%;
+    box-shadow: 10px 10px 4px  rgba(0, 0, 0, .2) ;
+}
+
+.bg{
+    margin-top: 20px;
+}
+
+.bg-w{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    flex-grow: 1;
+    /* border: 1px solid salmon; */
+    height: 100%;
+     display:  flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    transform: translateX(90px) !important;
+}
+
+.text h1{
+    width: 450px;
+    color: #31344B;
+    font-size: 60px;
+    /* border: 1px solid blue; */
+}
+.text p{
+    width: 330px;
+    color: #31344B;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.text .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #5883C5;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.text .button:active{
+    background-color:#FFC700 ;   
+}
+
+.text .button h5{
+    margin-bottom:5px;
+}
+
+.image{
+    flex-grow: 1;
+    height: 100%;
+    /* border: 1px solid pink; */
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-20px);
+}
+
+.font-link {
+    font-family: 'Sansita Swashed', cursive;
+  }
+.scada{
+    font-family: 'Scada', sans-serif;
+}
+
+.image img{
+    width: 600px;
+   
+    /* margin-right: 70px; */
+}
+
+
+
+
+
+@media  (max-width: 1250px) {
+
+    .image img{
+        width: 550px;
+    }
+    .text{
+        transform: translateX(60px) !important;
+    }
+}
+
+@media  (max-width: 1160px) {
+    .hilang{
+        font-size: 0px !important;
+        /* visibility: hidden; */
+        width: 0px !important;
+    }
+    .image img{
+        width: 460px;
+    }
+
+    .text{
+        transform: translateX(70px) !important;
+    }
+
+    .text h1{
+        width: 400px;
+        color: #31344B;
+        font-size: 55px;
+    }
+    .text p{
+        width: 330px;
+        font-size: 17px;
+    }
+    
+    .text .button{
+        width: 120px;
+        height: 40px;
+    }
+    
+    .text .button h5{
+        margin-bottom:5px;
+        font-size: 17px;
+    }
+}
+
+@media  (max-width: 1040px) {
+    .text{
+        transform: translateX(40px) !important;
+    }
+    .image{
+        transform: translateX(-10px) !important;
+    }
+    .text p{
+        width: 350px;
+        font-size: 17px;
+    }
+}
+
+
+
+@media  (max-width: 970px) {
+.header{
+    flex-direction: column;
+    height: 650px;
+
+}
+.image{
+    order: 1;
+    transform: none !important;
+}
+.image img{
+    width: 500px;
+    transform: translateY(20px) !important;
+}
+.text{
+    order: 2;
+    width: 100%;
+    align-items: center;
+    transform: none !important;
+}
+.text h1{
+    width: 500px;
+    font-size: 45px;
+    text-align: center;
+}
+.text p{
+    text-align: center;
+    width:400px;
+    font-size: 17px;
+}
+
+}
+
+
+@media  (max-width: 565px) {
+     .header{
+        flex-direction: column;
+        height: 530px;
+     }
+
+    .image img{
+        width: 400px;
+        transform: translateY(20px);
+    }
+    .text{
+        transform:none;
+    }
+    .text h1{
+        width: 400px;
+        font-size:35px;
+        text-align: center;
+    }
+    .text p{
+        text-align: center;
+        width: 350px;
+        font-size: 15px;
+    }
+    
+    }
+
+
+    @media  (max-width: 470px) {
+        .text .button{
+            transform: translateY(-10px);
+        }
+        .header{
+           flex-direction: column;
+           height: 500px;
+        }
+   
+       .image img{
+           width: 350px;
+           transform: translateY(20px) !important;
+       }
+
+       .text{
+           transform:none;
+       }
+       .text h1{
+        width: 350px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .text p{
+        text-align: center;
+        width: 300px;
+        font-size: 15px;
+    }
+       
+       }
+
+@media  (max-width: 400px) {
+    .navbar-brand img{
+        width: 130px;
+    }
+    .image{
+        transform: translateX(0px);
+    }
+    .image img{
+        width: 330px;
+    
+    }
+    .text{
+        /* width: 350px; */
+        transform: translateY(-10px) !important;
+        align-items: center;
+    }
+    .flex{
+        flex-direction: column;
+    }
+   
+}
+
+
+
+
+
+
+@media  (max-width: 360px) {
+
+    .image img{
+        width: 300px;
+    
+    }
+}

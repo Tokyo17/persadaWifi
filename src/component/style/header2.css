@@ -1,0 +1,171 @@
+#about{
+    scroll-margin: 80px;
+}
+
+
+.header2{
+    display: flex;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    height: 500px;
+    background-color: white;
+    width: 95%;
+    box-shadow: 10px 10px 4px  rgba(0, 0, 0, .2) ;
+    margin-bottom: 50px;
+
+}
+.luar{
+    margin-top: 100px;
+}
+
+.bg-w{
+    display: flex;
+    justify-content: center;
+}
+
+.header2 .text2{
+    flex: 1;
+    /* border: 1px solid salmon; */
+    height: 100%;
+     display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.text2 h1{
+    width: 500px;
+    color: #31344B;
+    font-size: 55px;
+    /* border: 1px solid blue; */
+}
+.text2 p{
+    width: 478px;
+    color: #31344B;
+    font-size: 20px;
+    
+}
+
+.header2 .image2{
+    flex: 1;
+    height: 100%;
+    /* border: 1px solid pink; */
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+ transform: translateX(30px);
+}
+
+
+
+.header2 .image2 img{
+    width: 500px;
+}
+
+
+
+@media  (max-width: 1125px) {
+
+     .image2 img{
+        width: 400px !important;
+    }
+    .text2 h1{
+        font-size: 40px;
+        width: 375px;
+    
+    }
+
+    .text2 p{
+        width: 361px;
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width:880px) {
+    .header2{
+        flex-direction: column;
+        height: 650px;
+    }
+    .image2{
+        width: 100%;
+        transform: translateY(15px) !important;
+    }
+    .text2{
+        width: 100%;
+        transform: translateY(-20px) !important;
+    }
+    .text2 h1{
+        font-size: 35px;
+        text-align: center;
+        width: 500px;
+    }
+    .text2 p{
+        text-align: center;
+        width: 370px;
+    }
+}
+
+
+
+@media (max-width:510px) {
+
+    .text2 h1{
+        font-size: 30px;
+        width: 400px;
+    }
+    .text2 p{
+        text-align: center;
+        width: 350px;
+        font-size:15px ;
+    }
+}
+
+
+@media (max-width:430px) {
+    .header2{
+        height: 550px;
+    }
+.image2 img{
+    width: 350px !important;
+}
+.text2{
+    transform: translateY(-10px) !important;
+}
+    .text2 h1{
+        font-size: 27px;
+        width: 350px;
+    }
+    .text2 p{
+        text-align: center;
+        width: 350px;
+        font-size:15px ;
+    }
+}
+
+
+@media (max-width:405px) {
+.image2 img{
+    width: 330px !important;
+}
+.text2 h1{
+    font-size: 23px;
+    width: 330px;
+}
+.text2 p{
+    text-align: center;
+    width: 320px;
+    font-size:15px ;
+}
+}
+
+
+@media (max-width:370px) {
+    .image2 img{
+        width: 300px !important;
+    }
+  
+    }
+    
+
+

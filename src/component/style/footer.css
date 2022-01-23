@@ -1,0 +1,24 @@
+.footer{
+    /* border: 2px solid hsl(47, 100%, 50%);
+    outline: #5883C5 2px solid;
+    outline-offset: -10px; */
+    transform: translateY(-40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: inset 7px 7px 4px  rgba(0, 0, 0, .2) ;
+}
+.footer h4{
+    color: #31344B;
+    margin-bottom: 3px;
+}
+
+
+@media  (max-width: 430px) {
+    .footer{
+        width: 90%;
+    }
+}
